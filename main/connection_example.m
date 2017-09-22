@@ -27,4 +27,3 @@ curs = exec(conn,query3);
 
 %Remember to close your connection at the end.
 close(conn);
-
