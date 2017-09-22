@@ -18,7 +18,6 @@ dburl = ['jdbc:mysql://127.0.0.1:3306/' dbname];  %If needed, you can change the
 javaclasspath('C:\jars\mysql-connector-java-5.1.43-bin.jar'); %Place the path of the jar.
 ```
 The lines above are self explanatory, but in case a more detailed description is needed, we have the following:
-1. **dbname**: This is the database name you are trying to establish the connection to. In MySQL, these are the **schemas**.
-
+1. **dbname**: This is the database name you are trying to establish the connection to. In MySQL, these are known as **Schemas**.
 
 
