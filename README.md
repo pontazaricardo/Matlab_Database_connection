@@ -2,7 +2,9 @@
 
 This is an example of how to create a connection from Matlab to a given database by JDBC (in our case, MySQL).
 
-### Usage
+![demo2](/images/matlab_database.gif?raw=true)
+
+## Usage
 
 For this example:
 1. Download the attached jar (*/jars/mysql-connector-java-5.1.43-bin.jar*) and copy it to a fixed location (in our example, *C:\jars*)
