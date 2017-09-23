@@ -53,3 +53,13 @@ curs = exec(conn,query1);
 curs = fetch(curs);
 DatabaseTimestamp = curs.Data
 ```
+
+### Stored procedures
+
+There are two ways to run a stored procedure from Matlab. If you want to check the status of the stored procedure, just run
+```matlab
+query2 = 'call your_stored_procedure_name(input1, input2, input3, input4)'
+curs = exec(conn,query2);
+curs = fetch(curs);
+result = curs.Data
+```
