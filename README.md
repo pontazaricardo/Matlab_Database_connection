@@ -63,3 +63,4 @@ curs = exec(conn,query2);
 curs = fetch(curs);
 result = curs.Data
 ```
+where *result* holds the stauts of executing the procedure.
