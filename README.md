@@ -43,3 +43,13 @@ A connection link has to be defined.
 ```matlab
 conn = database(dbname, username, password, driver, dburl);
 ```
+
+### Server date
+
+If you want to obtain the server's time, run the following query
+```matlab
+query1 = 'select now()'
+curs = exec(conn,query1);
+curs = fetch(curs);
+DatabaseTimestamp = curs.Data
+```
