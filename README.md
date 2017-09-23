@@ -39,3 +39,5 @@ jdbc:sqlserver://localhost:port;database=databasename
 
 ## How to execute queries
 
+### Server date
+
