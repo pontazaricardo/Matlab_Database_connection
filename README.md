@@ -70,3 +70,8 @@ curs = exec(conn,query3);
 ```
 
 ## Connection closure
+
+At the end of your file, remember to close the connection as
+```matlab
+close(conn);
+```
