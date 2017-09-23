@@ -36,3 +36,6 @@ If you want to use a different database, please consult [here](https://www.mathw
 ```
 jdbc:sqlserver://localhost:port;database=databasename
 ```
+
+## How to execute queries
+
