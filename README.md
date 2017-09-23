@@ -2,7 +2,7 @@
 
 This is an example of how to create a connection from Matlab to a given database by JDBC (in our case, MySQL).
 
-![demo2](/images/matlab_database.gif?raw=true)
+![demo01](/images/matlab_database.gif?raw=true)
 
 ## Usage
 
@@ -75,3 +75,4 @@ At the end of your file, remember to close the connection as
 ```matlab
 close(conn);
 ```
+![demo02](/images/matlab_database_img02.png?raw=true)
