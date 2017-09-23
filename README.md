@@ -63,4 +63,8 @@ curs = exec(conn,query2);
 curs = fetch(curs);
 result = curs.Data
 ```
-where *result* holds the stauts of executing the procedure.
+where *result* holds the stauts of executing the procedure. If the status of a procedure is not important, just run
+```matlab
+query3 = 'call your_stored_procedure_name(input1, input2, input3, input4)';
+curs = exec(conn,query3);
+```
