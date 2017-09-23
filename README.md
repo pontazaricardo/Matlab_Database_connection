@@ -39,5 +39,7 @@ jdbc:sqlserver://localhost:port;database=databasename
 
 ## How to execute queries
 
-### Server date
-
+A connection link has to be defined.
+```matlab
+conn = database(dbname, username, password, driver, dburl);
+```
