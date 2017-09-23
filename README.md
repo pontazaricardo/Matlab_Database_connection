@@ -28,4 +28,11 @@ If you want to use a different database, please consult [here](https://www.mathw
 ```
 com.microsoft.sqlserver.jdbc.SQLServerDriver
 ```
-
+4. **dburl**: To connect to MySQL, keep the value of 
+```
+['jdbc:mysql://127.0.0.1:3306/' dbname];
+```
+If you want to use a different database, please consult [here](https://www.mathworks.com/help/database/ug/database.html?requestedDomain=www.mathworks.com). As an example, for Microsoft SQL, you can use
+```
+jdbc:sqlserver://localhost:port;database=databasename
+```
